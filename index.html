@@ -4,25 +4,30 @@
 	<meta charset="UTF-8">
 	<title>Vue.js and Firebase</title>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css" >
-	<link rel="stylesheet" href="main.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
 </head>
 <body>
 	
-	<section class="row" id="prin">
-		<article class="col-xs-12" id="form">
-			<input v-on:change="getImage" type="file" id="file" class="inputfile">
-			<label for="file">Escoje un archivo</label>
-			<button v-on:click="uploadImage">Subir</button>
-		</article>
+	<main id="prin">
+		
+		<section>
+			<article class="col-xs-12" id="form">
+				<input v-on:change="getImage" type="file" id="file" class="inputfile">
+				<label for="file">Escoje un archivo</label>
+				<button v-on:click="uploadImage">Subir</button>
+			</article>
+		</section>
+		<section v-masonry transition-duration="0.3s" class="row" >
 
-		<article class="col-xs-12 col-sm-6 col-md-4 item" v-for='photo in photos' >
-			<div class="card">
-				<img v-bind:src="photo.url" alt="">
-			</div>
-		</article>
-	</section>
-	
+			<article v-masonry-tile class="col-xs-12 col-md-4" v-for='photo in photos' >
+				<div class="card">
+					<img v-bind:src="photo.url" alt="">
+				</div>
+			</article>
+		</section>
+
+	</main>
+
 	<script src="dist/bundle.js"></script>
 </body>
 </html>

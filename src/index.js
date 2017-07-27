@@ -3,8 +3,12 @@ import VueFire from 'vuefire';
 import firebase from 'firebase';
 import $ from 'jquery';
 import toastr from 'toastr';
+import Masonry from 'masonry-layout'
+import VueMasonryPlugin from 'vue-masonry';
+import './index.css';
 
 Vue.use(VueFire);
+Vue.use(VueMasonryPlugin);
 
 var config = {
 	apiKey: "AIzaSyCDlAJCntMmYep_KkStoGuN-vjqQ4oy5dE",
@@ -81,5 +85,5 @@ var vm = new Vue({
 			});
 		}
 
-	} // endMethods
+	}, // endMethods
 });
