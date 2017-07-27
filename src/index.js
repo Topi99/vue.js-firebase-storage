@@ -10,13 +10,15 @@ import './index.css';
 Vue.use(VueFire);
 Vue.use(VueMasonryPlugin);
 
+// TODO: Replace with your Firebase Credentials
+
 var config = {
-	apiKey: "AIzaSyCDlAJCntMmYep_KkStoGuN-vjqQ4oy5dE",
-	authDomain: "introduccion-51f08.firebaseapp.com",
-	databaseURL: "https://introduccion-51f08.firebaseio.com",
-	projectId: "introduccion-51f08",
-	storageBucket: "introduccion-51f08.appspot.com",
-	messagingSenderId: "616434109804"
+	apiKey: /* Your apiKey */,
+	authDomain: /* Your authDomain */,
+	databaseURL: /* Your databaseURL */,
+	projectId: /* Your projectId */,
+	storageBucket: /* Your storageBucket */,
+	messagingSenderId: /* Your messagingSenderId */
 };
 
 var firebaseApp = firebase.initializeApp(config);
