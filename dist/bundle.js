@@ -50728,7 +50728,7 @@ exports = module.exports = __webpack_require__(170)(undefined);
 
 
 // module
-exports.push([module.i, "body, html{\n\tbackground-color: #E7EBFF;\n\tfont-family: arial;\n}\n\n.inputfile {\n\twidth: 0.1px;\n\theight: 0.1px;\n\topacity: 0;\n\toverflow: hidden;\n\tposition: absolute;\n\tz-index: -1;\n}\n\n.inputfile + label, button {\n    font-size: 1.25em;\n    font-weight: 700;\n    color: white;\n    background-color: #4175C6;\n    display: inline-block;\n    transition: .4s;\n    padding: 5px;\n    margin-bottom: 10px;\n    border: none;\n    border-radius: 3px;\n\t\tbox-shadow: 0px 1px 3px rgba(0,0,0,.3);\n\t\tcursor: pointer;\n}\n\n.card{\n\tbackground-color: white;\n\tpadding: 7px;\n\tpadding-bottom: 20px;\t\n\tmargin-bottom: 2vh;\n\tborder-radius: 3px;\n\tbox-shadow: 0px 1px 3px rgba(0,0,0,.3);\n}\n\t.card img{\n\t\tmax-width: 100%;\n\t}", ""]);
+exports.push([module.i, "body, html{\n\tbackground-color: #E7EBFF;\n\tfont-family: arial;\n}\n\n.inputfile {\n\twidth: 0.1px;\n\theight: 0.1px;\n\topacity: 0;\n\toverflow: hidden;\n\tposition: absolute;\n\tz-index: -1;\n}\n\n.inputfile + label, button {\n    font-size: 1.25em;\n    font-weight: 700;\n    color: white;\n    background-color: #4175C6;\n    display: inline-block;\n    transition: .4s;\n    padding: 5px;\n    margin-bottom: 10px;\n    border: none;\n    border-radius: 3px;\n\t\tbox-shadow: 0px 1px 3px rgba(0,0,0,.3);\n\t\tcursor: pointer;\n}\n\n.card{\n\tmargin-bottom: 2vh;\n\tborder-radius: 3px;\n\tbox-shadow: 0px 1px 3px rgba(0,0,0,.37);\n\theight: auto;\n\toverflow: hidden;\n}\n\nimg.card{\n\twidth: 100%;\n}", ""]);
 
 // exports
 

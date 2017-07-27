@@ -17,12 +17,11 @@
 				<button v-on:click="uploadImage">Subir</button>
 			</article>
 		</section>
-		<section v-masonry transition-duration="0.3s" class="row" >
+		<section v-masonry transition-duration="0.4s" class="row" >
 
 			<article v-masonry-tile class="col-xs-12 col-md-4" v-for='photo in photos' >
-				<div class="card">
-					<img v-bind:src="photo.url" alt="">
-				</div>
+					<img class="card" v-bind:src="photo.url" alt="">
+				
 			</article>
 		</section>
 

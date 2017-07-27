@@ -28,13 +28,13 @@ body, html{
 }
 
 .card{
-	background-color: white;
-	padding: 7px;
-	padding-bottom: 20px;	
 	margin-bottom: 2vh;
 	border-radius: 3px;
-	box-shadow: 0px 1px 3px rgba(0,0,0,.3);
+	box-shadow: 0px 1px 3px rgba(0,0,0,.37);
+	height: auto;
+	overflow: hidden;
 }
-	.card img{
-		max-width: 100%;
-	}
+
+img.card{
+	width: 100%;
+}
