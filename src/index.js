@@ -4,7 +4,7 @@ import firebase from 'firebase';
 import $ from 'jquery';
 import toastr from 'toastr';
 import Masonry from 'masonry-layout'
-import VueMasonryPlugin from 'vue-masonry';
+import VueMasonryPlugin from '../vue-masonry';
 import './index.css';
 
 Vue.use(VueFire);
